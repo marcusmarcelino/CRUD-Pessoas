@@ -73,12 +73,10 @@
 
                <input type="hidden" name="id" value="<?php echo $id; ?>">
 
-               
                <div class="form-group col-md-auto">
                   <label for="name">Nome</label>
                   <input type="text" class="form-control" id="name" name="name" aria-describedby="nameHelp" 
                   value="<?php echo $name; ?>" placeholder="Digite o seu nome">
-                  <small id="nameHelp" class="form-text text-muted">Digite o seu nome por favor!</small>
                </div>
 
                <div class="form-group col-md-auto">
